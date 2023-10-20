@@ -1,0 +1,83 @@
+
+/* Variables */
+
+:root {
+    --background: #00000095;
+    --color1: #D41E00;
+    --color2: #F76201;
+    --color3: #FEEBA0;
+  }
+  
+  /* Styles */
+  
+  body {
+    background-image: url(https://i.ibb.co/9TDdWKn/DALL-E-2023-10-19-15-51-09-Illustration-of-an-enchanting-forest-glade-bathed-in-the-soft-light-of-du.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-family: "Poppins", serif;
+    
+  }
+  
+  .main-container {
+    background: var(--background);
+    border-radius: 1.5rem;
+    padding: 20px;
+    margin: auto;
+    width: min(90%, 600px);
+    color: white;
+    
+  }
+  
+  
+  h1 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 4rem;
+    background: -webkit-linear-gradient(45deg, var(--color1), var(--color3));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+  }
+  
+  header {
+    margin-block: -40px;
+  }
+  
+  h2,
+  h3 {
+    color: var(--color3);
+    font-weight: 400;
+  }
+  
+  
+  
+  /* Footer */
+  
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  nav {
+    display: flex;
+  }
+  
+  a {
+    margin-left: 10px;
+    padding: 10px;
+  }
+  
+  footer p {
+    opacity: 0.3;
+  }
+  
+  a:hover {
+    background: black ;
+    border-radius: 5px;
+  }
+  
